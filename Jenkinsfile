@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        string(name: 'maven_version', defaultValue: '3.9.3', description: 'pass the version of maven')
+        string(name: 'maven_version', defaultValue: '3.9.6', description: 'pass the version of maven')
         string(name: 'terraform_version', defaultValue: '0.15.0', description: 'pass the version of maven')		
     }
     stages {
