@@ -2,7 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name: 'maven_version', defaultValue: '3.9.6', description: 'pass the version of maven')
-        string(name: 'terraform_version', defaultValue: '1.7.5', description: 'pass the version of maven')		
+        string(name: 'terraform_version', defaultValue: '1.7.5', description: 'pass the version of terraform')
     }
     stages {
         stage('download maven') {
